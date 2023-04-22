@@ -1,0 +1,45 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  .container {
+    height: 70px;
+    position: relative;
+  }
+  
+   .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  h1 {
+    font-family: 'Pirata One', cursive;
+    text-align: center;
+    font-size: 2rem;
+    padding: 0 3rem;
+  }
+  
+  #map {
+    height: 85vh;
+  }
+  
+  .gm-style-iw-d {
+    color: #000000;
+  }
+  
